@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PriceTracker Diploma</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_app_text">
+Price Tracker — це зручний застосунок для відстеження цін.\n\n
+Додайте товари, і програма фіксуватиме зміни вартості.\n\n
+Розробник: Студент\n
+Версія: 1.0.0
+</string>
+
+</resources>
