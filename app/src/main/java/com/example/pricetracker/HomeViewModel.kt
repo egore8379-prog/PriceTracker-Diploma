@@ -60,7 +60,6 @@ class HomeViewModel(app: Application) : AndroidViewModel(app) {
                     url = url,
                     name = parsedProductData.name,
                     currentPrice = parsedProductData.currentPrice,
-                    oldPrice = parsedProductData.oldPrice,
                     lastChecked = System.currentTimeMillis() // Поточний час
                 )
 

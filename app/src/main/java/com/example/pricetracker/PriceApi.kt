@@ -20,7 +20,6 @@ data class ParseRequest(
 data class ParseResponse(
     val name: String,          // Назва товару (наприклад: "iPhone 15 Pro")
     val currentPrice: String,  // Поточна ціна (наприклад: "49999 грн")
-    val oldPrice: String?      // Стара ціна (може бути null, якщо знижки немає)
 )
 
 // КРОК 3: ІНТЕРФЕЙС API (опис запитів до сервера)
