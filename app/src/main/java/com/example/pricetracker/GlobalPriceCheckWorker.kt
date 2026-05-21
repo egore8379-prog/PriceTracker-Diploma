@@ -99,8 +99,8 @@ class GlobalPriceCheckWorker(
         val oldPriceNumber = convertPriceToNumber(oldProduct.currentPrice)
         val newPriceNumber = convertPriceToNumber(newData.currentPrice)
 
-        // Якщо не вдалося отримати нову ціну - вважаємо що нічого не змінилося
-        if (newPriceNumber == null) {
+        // Якщо не вдалося отримати нову ціну або вона дорівнює 0 (помилка сервера) - вважаємо що нічого не змінилося
+        if (newPriceNumber == null || newPriceNumber == 0.0) {
             return false
         }
 
