@@ -107,7 +107,7 @@ class AccountFragment : Fragment() {
 
     // Відкриває поштовий клієнт
     private fun sendEmailToDeveloper() {
-        val email = "dokarreg@gmail.com"
+        val email = "8051658@stud.kai.edu.ua"
         val subject = "PriceTracker: Відгук"
 
         // Створюємо намір "Відправити" (ACTION_SENDTO)
