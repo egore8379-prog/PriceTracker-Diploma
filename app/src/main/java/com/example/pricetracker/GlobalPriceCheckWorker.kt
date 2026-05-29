@@ -209,6 +209,7 @@ class GlobalPriceCheckWorker(
             .setSmallIcon(R.drawable.ic_price) // Іконка
             .setContentTitle(title) // Заголовок
             .setContentText(message) // Текст
+            .setStyle(NotificationCompat.BigTextStyle().bigText(message)) // Дозволяє розгортати довгий текст
             .setPriority(NotificationCompat.PRIORITY_HIGH) // Високий пріоритет
             .setAutoCancel(true) // Автоматично зникає після кліку
             .build()
